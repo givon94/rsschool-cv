@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy-light.woff2') format('woff2'),
+    url('../fonts/gilroy-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy-regular.woff2') format('woff2'),
+    url('../fonts/gilroy-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy-medium.woff2') format('woff2'),
+    url('../fonts/gilroy-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy-semibold.woff2') format('woff2'),
+    url('../fonts/gilroy-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    background: #999;
+}
+
+body:before {
+    content: "";
+    height: 100%;
+    margin-right: -4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main {
+    display: inline-flex;
+    vertical-align: middle;
+    text-align: left;
+    max-width: 1000px;
+    background: #f3f3f3;
+    color: #333;
+    box-shadow: -20px 20px 45px 20px rgba(0, 0, 0, 0.582);
+}
+
+.left__part {
+    background: #21b8bc;
+}
+
+.avatar {
+    max-width: 100%;
+}
+
+.section__title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f3f3f3;
+    margin-bottom: 15px;
+}
+.left__part .contacts ul {
+    list-style-type: none;
+}
+.left__part .contacts ul li {
+    color: #f3f3f3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.left__part .contacts ul li:last-of-type {
+    margin-bottom: 0;
+}
+.left__part .contacts ul li i {
+    font-size: 14px;
+    background: #0d182d;
+    padding: 5px;
+    color: #f3f3f3;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    box-shadow: -5px 5px 6px rgba(0, 0, 0, 0.137);
+}
+.left__part .contacts ul li a {
+    font-weight: 500;
+    white-space: nowrap;
+    color: #f3f3f3;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: all .3s ease-in-out;
+}
+.left__part .contacts ul li a:hover {
+    opacity: .8;
+}
+.left__part .section__div {
+    padding: 25px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.progress-container {
+    background: #f3f3f3;
+    max-width: 100px;
+    width: 100%;
+    height: 12px;
+    margin-left: 18px;
+}
+
+.progress {
+    height: 100%;
+    background: #1c90a9;
+    transition: all 1.2s;
+    transition-delay: .3s;
+    width: 0px;
+}
+.skill {
+    margin-bottom: 20px;
+}
+
+.skills div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills div:last-of-type {
+    margin-bottom: 0;
+}
+.skills p {
+    min-width: 81px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f3f3f3;
+}
+
+.right__part {
+    padding: 50px 30px;
+}
+
+.right__part-section {
+    margin-bottom: 30px;
+}
+.right__part-section:last-of-type {
+    margin-bottom: 0;
+}
+.right__part ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+.right__part ul li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.right__part ul li:before {
+    content: '•';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 22px;
+    color: #0b5d6f;
+}
+.right__part ul li:last-of-type {
+    margin-bottom: 0;
+}
+.right__part ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.right__part ul li a:hover {
+    opacity: .7;
+}
+
+.right__part ul li img {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.right__part h4 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1b90a9;
+}
+
+.right__part h1{
+    font-weight: 600;
+    font-size: 32px;
+    color: #242424;
+    margin-bottom: 10px;
+}
+
+.right__part .description {
+    color: #1b90a9;
+    font-weight: 600;
+}
+
+.right__part .about, .experience, .education, .english p {
+    line-height: 1.7;
+}
