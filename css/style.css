@@ -54,13 +54,14 @@ body {
 body:before {
     content: "";
     height: 100%;
-    margin-right: -4px;
+    margin-right: -5px;
     display: inline-block;
     vertical-align: middle;
 }
 
 main {
     display: inline-flex;
+    overflow: hidden;
     vertical-align: middle;
     text-align: left;
     max-width: 1000px;
@@ -68,6 +69,7 @@ main {
     color: #333;
     box-shadow: -20px 20px 45px 20px rgba(0, 0, 0, 0.582);
 }
+
 
 .left__part {
     background: #21b8bc;
@@ -227,4 +229,24 @@ main {
 
 .right__part .about, .experience, .education, .english p {
     line-height: 1.7;
+}
+
+@media (max-width: 575.98px) {
+    body:before {
+        content: none;
+    }
+
+    .left__part {
+        zoom: .8;
+    }
+
+    .right__part-section p {
+        text-align: justify;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .left__part {
+        zoom: .8;
+    }
 }
