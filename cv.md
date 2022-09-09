@@ -17,3 +17,9 @@ I have been working as a front-end developer for one and half years. I have deve
 
 **Work experience**
 I have been working as a front-developer for one and half years.
+
+**Education**
+- 2015-2020 Belarusian State Agrarian Technical University
+
+**English**
+A1
