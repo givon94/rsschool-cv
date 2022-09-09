@@ -1,0 +1,40 @@
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+ul > li {
+    margin-top: 8px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 15px;
+}
+
+.inner {
+    margin-top: 25px;
+}
